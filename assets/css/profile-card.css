@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(60, 150, 152);
+}
+
+.card {
+  height: 500px;
+  width: 380px;
+  margin-top: 75px;
+}
+
+.card .img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 10px solid grey;
+  border-radius: 49px;
+}
+
+.card .img img {
+  height: 481px;
+  width: 361px;
+  border-radius: 37px;
+}
+
+.card .img ul {
+  display: flex;
+  list-style: none;
+}
+.card .img .info-social {
+  position: absolute;
+  width: 100%;
+  height: 141px;
+  text-align: center;
+  color: white;
+  bottom: 42px;
+}
+
+.card .img .name {
+  font-size: 26px;
+}
+
+.card .img .job {
+  font-size: 20px;
+}
+
+.card .info-social div {
+  margin: 10px;
+}
+
+.card .info-social .social {
+  display: flex;
+  justify-content: center;
+}
+
+.card .info-social .social li {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 5px;
+  padding: 7px;
+}
+.card .info-social .social li:hover {
+  transform: scale(1.6);
+  transition: all 0.6s;
+}
+
+.card .info-social .social li i {
+  font-size: 24px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 31px solid white;
+  margin-left: 45%;
+}
+
+.cancel {
+  border-radius: 30px;
+  height: 50px;
+  width: 100%;
+  margin-top: 8px;
+  font-size: 23px;
+}
+
+.cancel:hover {
+  background-color: rgb(122, 114, 114);
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
